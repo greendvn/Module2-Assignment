@@ -10,7 +10,7 @@ Bạn chỉ có tối đa `5 ngày` để hoàn thành, nhưng đừng lo, nếu
 ####  Topic & Files
 
 Dựng 1 site nho nhỏ để quản lý sản phẩm, hoặc là quản lý bất cứ thứ gì bạn thích
-Cấu trúc thư mục mà chúng tôi gửi cho bạn:
+Cấu trúc thư mục mà mình gửi cho bạn:
 
 ```
 test/
