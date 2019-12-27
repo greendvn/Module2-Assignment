@@ -1,7 +1,8 @@
 # C1019i1 - Assignment 
 
 Hi there! Nice to meet you.
-Để chào mừng kì nghỉ dài của tết dương lịch của CodeGym. Dưới đây là một bài tập nhỏ để mọi người luyện tập tránh việc quá nhàn rỗi trong những ngày ngh.
+
+Để chào mừng kì nghỉ dài của tết dương lịch của CodeGym. Dưới đây là một bài tập nhỏ để mọi người luyện tập tránh việc quá nhàn rỗi trong những ngày nghỉ.
 
 Bạn chỉ có tối đa `5 ngày` để hoàn thành, nhưng đừng lo, nếu bạn follow  theo từng bước phía dưới thì đơn giản thôi.
 
