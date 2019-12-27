@@ -3,7 +3,7 @@
 Hi there! Nice to meet you.
 Để chào mừng kì nghỉ dài của tết dương lịch của CodeGym. Dưới đây là một bài tập nhỏ để mọi người luyện tập tránh việc quá nhàn rỗi trong những ngày ngh.
 
-Bạn chỉ có tối đa `5 ` để hoàn thành, nhưng đừng lo, nếu bạn follow  theo từng bước phía dưới thì đơn giản thôi.
+Bạn chỉ có tối đa `5 ngày` để hoàn thành, nhưng đừng lo, nếu bạn follow  theo từng bước phía dưới thì đơn giản thôi.
 
 ##
 ####  Topic & Files
@@ -44,6 +44,7 @@ Các yêu cầu này có độ ưu tiên từ trên xuống, hãy căn cứ vào
 2. Làm chính xác html ở frontend hoặc đẹp hơn.
 3. Filter theo toppings như hình 1b.
 4. CRUD mượt mà
+5. Mô tả lại cấu trúc database
 
 
 > **Note:**
