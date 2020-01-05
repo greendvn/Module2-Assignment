@@ -1,6 +1,4 @@
-{
-  "shopProducts":
-  [
+[
     {
       "id": 1,
       "shop": 1,
@@ -52,4 +50,4 @@
       "product": 5
     }
   ]
-}
+
