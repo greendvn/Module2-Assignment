@@ -38,7 +38,7 @@ $stores = $teaStoreManager->getListStore();
         </div>
         <div class="col-10">
             <div class="tab-content" id="nav-tabContent">
-                <?php include_once "layout/navbar.php"?>
+                <?php include_once "layout/navbar.php" ?>
 
                 <?php foreach ($stores as $key => $store): ?>
                     <div class="tab-pane fade bg-light <?php if ($key == 0): ?> show active <?php endif; ?>"
@@ -46,10 +46,25 @@ $stores = $teaStoreManager->getListStore();
                          role="tabpanel">
                         <h2 style="margin-bottom: 50px; padding-top: 30px; text-align: center"><?php echo $store->getStoreName() ?>
                             Menu</h2>
-                        <button aria-expanded="false" class="btn btn-outline-danger"
-                                data-toggle="collapse" data-target="#boxnoidung">Filter
-                        </button>
-
+                        <div class="row">
+                            <div class="col">
+                                <button aria-expanded="false" class="btn btn-outline-danger"
+                                        data-toggle="collapse" data-target="#boxnoidung">Filter
+                                </button>
+                            </div>
+                            <div class="dropdown col" style="text-align: right">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sort By
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item active" href="#">Name (ASC)</a>
+                                    <a class="dropdown-item" href="#">Name (DSC)</a>
+                                    <a class="dropdown-item" href="#">Price (ASC)</a>
+                                    <a class="dropdown-item" href="#">Price (DSC)</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="collapse mt-4" id="boxnoidung">
                             <div class="card card-body bg-warning">
                                 <p class="card-text"><b>Topping: </b></p>
@@ -63,12 +78,12 @@ $stores = $teaStoreManager->getListStore();
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
                                                value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Milk foam</label>
+                                        <label class="form-check-label" for="inlineCheckbox2">Pearl</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
                                                value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Milk foam</label>
+                                        <label class="form-check-label" for="inlineCheckbox3">Aloe</label>
                                     </div>
                                 </div>
                             </div>

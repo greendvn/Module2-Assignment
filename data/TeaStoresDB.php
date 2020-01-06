@@ -43,7 +43,7 @@ class TeaStoresDB
 
     public function getStoreById($Id)
     {
-        $sql = "SELECT * FROM stores WHERE storeId = '$Id'";
+        $sql = "SELECT * FROM stores WHERE storeId = '$Id' ";
         $stmt = $this->connect->query($sql);
         $result = $stmt->fetch();
         $store = new Store($result["storeName"]);
@@ -87,7 +87,7 @@ class TeaStoresDB
 
     public function deleteProduct($Id)
     {
-        $sql = "DELETE FROM products WHERE productId = :Id";
+        $sql = "DELETE FROM products  WHERE productId = :Id";
         $stmt = $this->connect->prepare($sql);
         $stmt->bindParam(":Id", $Id);
         $stmt->execute();
@@ -103,6 +103,7 @@ class TeaStoresDB
         $product->setProductId($result["productId"]);
         return $product;
     }
+
 
     public function editProductById($Id, $newProductName, $newProductPrice, $newProductToppings)
     {
@@ -130,6 +131,7 @@ class TeaStoresDB
         }
         return $arr;
     }
+
 
     public function addstoreProduct($storeIdAdd,$productIdAdd){
         $sql = "INSERT INTO storeProducts(storeId,productId) VALUES (:storeIdAdd, :productIdAdd)";

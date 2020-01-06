@@ -55,6 +55,7 @@ class TeaStoreManager
     public function getProductInStore($storeId){
         return $this->teaStoreManager->getProductInStore($storeId);
     }
+
     public function getProductNotInStore($storeId){
         $productsInStore =  $this->teaStoreManager->getProductInStore($storeId);
         $products = $this->teaStoreManager->getProducts();
